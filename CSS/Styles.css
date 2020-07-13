@@ -1,0 +1,14 @@
+@charset "utf-8";
+body {
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ADD7E7;
+body p {
+}
+body p {
+    text-indent: 2cm;
+    text-align: left;
+}

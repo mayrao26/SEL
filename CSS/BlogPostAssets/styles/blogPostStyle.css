@@ -1,0 +1,364 @@
+@charset "UTF-8";
+#mainwrapper header {
+    /*Header */
+    background-color: rgba(255,255,255,1.00);
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    padding: center;
+}
+#mainwrapper header #logo {
+    /* Company Logo text */
+    box-shadow: 15px 15px 10px grey;
+	max-width: 25%;
+    float: none;
+    padding: center;
+    color: rgba(255,255,255,1.00);
+    background-color: #FFFFFF;
+    height: auto;
+    border-color: #000000;
+    border-style: hidden;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#mainwrapper header nav {
+    /*Nav bar containing links in header */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    width: 100%;
+    float: left;
+    color: rgba(255,255,255,1.00);
+    height: auto;
+    background-color: #FFFFFF;
+    padding-left: 0px;
+    -moz-box-sizing: border-box;
+    margin: center;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+header nav a {
+    color: #000000;
+    border-color: #FFFFFF;
+    height: auto;
+    background-color: #77D87E;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: center;
+    border-style: double;
+    max-width: 100%;
+    display: inline;
+}
+#content #mainContent h1, #content #mainContent h2 {
+    /* Styling for main headings */
+    color: rgba(0,0,0,1.00);
+    background-color: #68D18A;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    padding: center;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: 1px 1px #C830AA;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+}
+#content #mainContent h3 {
+    /*Captions ot Taglines */
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: rgba(255,255,255,1.00);
+    height: auto;
+    max-width: 100%;
+}
+#content #mainContent #bannerImage {
+    background-color: rgba(208,207,207,1.00);
+    height: auto;
+    max-width: 100%;
+}
+#content #mainContent p {
+    /* All paragraphs under maincontent */
+    color: rgba(255,255,255,1.00);
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    text-align: justify;
+    max-width: 100%;
+    height: auto;
+}
+#content #mainContent #authorInfo {
+    /* Author info section */
+    background-color: rgba(255,255,255,1.00);
+    color: #000000;
+}
+#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
+    color: rgba(0,0,0,1.00);
+    padding-left: 2%;
+    padding-top: 11px;
+}
+#content #mainContent .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#content #mainContent #authorInfo p {
+    color: rgba(255,255,255,1.00);
+    padding-left: 2%;
+    padding-top: 0px;
+    padding-bottom: 11px;
+    padding-right: 2%;
+    text-align: center;
+}
+footer article {
+	/* Footer articles */
+	width: 46%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: justify;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+}
+#mainContent {
+    /* Container for the blog post in individal blog view */
+    padding-left: 2%;
+    float: left;
+    padding-right: 2%;
+    padding-top: 41px;
+    background-color: #000000;
+    max-width: 1000%;
+    height: auto;
+}
+#mainwrapper #content #sidebar {
+	/* Sidebar*/
+	width: 19%;
+	padding-left: 2%;
+	padding-right: 2%;
+	float: left;
+	background-color: rgba(246,246,246,1.00);
+	margin-top: 150px;
+	padding-top: 32px;
+}
+#mainwrapper {
+	/* Container of all content */
+	width: 80%;
+	overflow: auto;
+	margin-left: 10%;
+}
+#content #sidebar input {
+	/* Search box in sidebar */
+	width: 98%;
+	height: 32px;
+}
+#content #sidebar #adimage {
+	/* Container for Image in sidebar */
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+	margin-top: 46px;
+	float: none;
+	overflow: auto;
+}
+nav ul li {
+	list-style-type: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+nav ul {
+	padding-left: 0%;
+}
+nav ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+#footerbar {
+	/* Footer bar at the bottom of the page */
+	height: 18px;
+	clear: both;
+	background-color: rgba(208,207,207,1.00);
+	width: 100%;
+}
+footer {
+	/* Container for footer artices */
+	width: 71%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.notOnDesktop {
+	/*element to be displayed only in mobile view and tabet view */
+	display: none;
+}
+#mainContent #bannerImage img {
+	/* Actual banner image */
+	width: 100%;
+}
+#sidebar #adimage img {
+	/* Image in sidebar */
+	width: 100%;
+	float: left;
+}
+#mainwrapper header nav a {
+    /* Links in header */
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    margin-top: 20%;
+    border-color: #FFFFFF;
+    border-style: outset;
+    background-color: #68D18A;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    width: 100%;
+    font-size: medium;
+    text-align: justify;
+}
+body {
+    background-color: #FFFFFF;
+    background-image: -webkit-repeating-linear-gradient(270deg,rgba(34,34,34,1.00) 0%,rgba(109,210,142,0.99) 17.28%,rgba(147,222,171,0.95) 42.14%,rgba(34,34,34,1.00) 72.54%,rgba(200,238,212,0.95) 100%,rgba(255,255,255,0.83) 100%);
+    background-image: -moz-repeating-linear-gradient(270deg,rgba(34,34,34,1.00) 0%,rgba(109,210,142,0.99) 17.28%,rgba(147,222,171,0.95) 42.14%,rgba(34,34,34,1.00) 72.54%,rgba(200,238,212,0.95) 100%,rgba(255,255,255,0.83) 100%);
+    background-image: -o-repeating-linear-gradient(270deg,rgba(34,34,34,1.00) 0%,rgba(109,210,142,0.99) 17.28%,rgba(147,222,171,0.95) 42.14%,rgba(34,34,34,1.00) 72.54%,rgba(200,238,212,0.95) 100%,rgba(255,255,255,0.83) 100%);
+    background-image: repeating-linear-gradient(180deg,rgba(34,34,34,1.00) 0%,rgba(109,210,142,0.99) 17.28%,rgba(147,222,171,0.95) 42.14%,rgba(34,34,34,1.00) 72.54%,rgba(200,238,212,0.95) 100%,rgba(255,255,255,0.83) 100%);
+
+}
+header #logo img {
+    width: 100%;
+    height: auto;
+}
+#mainContent #bannerImage img {
+    height: auto;
+    max-width: 100%;
+    background-color: #000000;
+}
+#mainContent #authorInfo p {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+#mainContent #authorInfo h2 {
+    color: #000000;
+    text-align: center;
+}
+#mainContent #authorInfo a {
+    color: #000000;
+    text-indent: 10px;
+}
+#mainContent figure figcaption {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: chewy;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Tablet view */
+@media screen and (max-width:769px) {
+.notOnDesktop {
+	/* Search box shown only in mobile view and Tablet view */
+	display: block;
+	text-align: right;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 96%;
+}
+#content .notOnDesktop input {
+	height: 28px;
+}
+#mainContent {
+	/* Container for the blog post */
+	padding-top: 0px;
+	float: none;
+	width: 96%;
+}
+#sidebar input {
+	/* Search box in sidebar */
+	display: none;
+}
+footer {
+    /* Footer region */
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+#content footer article {
+    /*Each footer article */
+    width: 46%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+#mainwrapper header {
+	/* Header */
+	width: 100%;
+}
+}
+
+/* Mobile view */
+@media screen and (max-width:480px) {
+#mainwrapper header #logo {
+    height: auto;
+    max-width: 20%;
+}
+#mainwrapper header nav {
+	/*navigation links in header */
+	text-align: center;
+	background-color: rgba(255,255,255,1.00);
+	width: 98%;
+
+}
+#content .notOnDesktop input {
+	width: 80%;
+	text-align: center;
+}
+#content #mainContent h3 {
+	/* Title under maincontent, if any */
+	font-size: 14px;
+}
+#content footer article {
+    /* Each foter article */
+    width: 100%;
+    background-color: #FFFFFF;
+    height: auto;
+    color: #000000;
+    text-align: center;
+}
+}
